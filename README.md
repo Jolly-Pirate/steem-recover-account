@@ -1,7 +1,6 @@
 # steem-recover-account
 ## STEEM Account Recovery From Password v1.0 - by @drakos
 A NodeJS script to recover a forgotten account name using the password. The script uses steemsql.com's database.
---- 
 ### SETUP
  - Install NodeJS (https://nodejs.org).
  - Create a folder for your project and go into it.
