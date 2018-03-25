@@ -7,9 +7,10 @@ A NodeJS script to recover a forgotten account name using the password. The scri
  - Copy the script into a file, e.g. recover_account.js.
  - Alternatively:  
  `git clone https://github.com/Jolly-Pirate/steem-recover-account && cd recover-account`  
- - Install the steem and  mssql packages into your project folder (don't use mssql 4.x):  
- `npm install steem@latest mssql@3.0.0`
- ### USAGE
+ - Install the steem, mssql, command-line-args and mongodb packages into your project folder (don't use mssql 4.x)
+ `npm install`
+
+### USAGE
  Run the script from the project's folder with:  
  `node recover_account.js YOURPASSWORD startdate enddate`  
  The dates are in the format `year/mm/dd`  
