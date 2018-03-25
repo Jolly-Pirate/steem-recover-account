@@ -12,9 +12,12 @@ A NodeJS script to recover a forgotten account name using the password. The scri
 
 ### USAGE
  Run the script from the project's folder with:  
- `node recover_account.js YOURPASSWORD startdate enddate`  
- The dates are in the format `year/mm/dd`  
+ `node recover_account.js -p YOURPASSWORD -s startdate -e enddate`
+
+ The dates are in the format `year/mm/dd`
+
  For example, using a single day search:  
- `node recover_account.js YOURPASSWORD 2017/12/01 2017/12/01`  
+ `node recover_account.js -p YOURPASSWORD -s 2017/12/01`
+
  Or if searching on a range of dates (takes longer of course):  
- `node recover_account.js YOURPASSWORD 2017/12/01 2017/12/05`
+ `node recover_account.js -p YOURPASSWORD -s 2017/12/01 -e 2017/12/05`
