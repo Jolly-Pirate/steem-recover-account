@@ -1,0 +1,27 @@
+{
+  "name": "steem-recover-account",
+  "version": "1.1.0",
+  "description": "A NodeJS script to recover a forgotten account name using the password. The script uses steemsql.com's database.",
+  "author": "Jolly-Pirate aka Drakos https://steemit.com/@drakos",
+  "homepage": "https://github.com/Jolly-Pirate",
+  "keywords": [
+    "steem",
+    "recover",
+    "steemit",
+    "account"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "mongodb": "^3.0.3",
+    "mssql": "^3.0.0",
+    "steem": "0.6.7"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Jolly-Pirate/steem-recover-account.git"
+  }
+}
